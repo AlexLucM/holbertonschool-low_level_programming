@@ -19,13 +19,20 @@ int main(void)
 {
 	printf("Last digit of");
 }
-
+{
+	printf(" ");
+}
 {
 	printf("%d", n);
 }
-
+{
+	printf(" ");
+}
 {
 	printf("is");
+}
+{
+	printf(" ");
 }
 
 	if (n % 10 > 5)
