@@ -4,7 +4,7 @@
 /**
 * print_alphabet - prints alphabet in lowwer case x10, followed by a nex line
 *
-* Return: void
+* Return: Nothing
 */
 void print_alphabet_x10(void)
 
