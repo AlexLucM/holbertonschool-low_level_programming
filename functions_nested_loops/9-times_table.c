@@ -25,7 +25,7 @@ result = row * col;
 	_putchar(',');
 	_putchar(' ');
 	}
-	if (result < 10)
+	if (result < 10 && col >= 0)
 	{
 	_putchar(' ');
 	}
