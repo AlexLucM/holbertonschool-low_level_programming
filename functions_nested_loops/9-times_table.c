@@ -13,31 +13,23 @@ int row;
 int col;
 int result;
 
-row = 0;
-while (row <= 9)
+for (row = 0; row <= 9; row++)
 {
-col = 0;
-while (col <= 9)
+for (col = 0; col <= 9; col++)
 {
 result = row * col;
 	if (col > 0)
 	{
 	_putchar(',');
 	_putchar(' ');
-	}
-	if (result < 10 && col >= 0)
-	{
+	if (result < 10)
 	_putchar(' ');
 	}
-	else
-	{
+	if (result >= 10)
 	_putchar('0' + (result / 10));
-	}
 
 	_putchar('0' + (result % 10));
-	col++;
 }
 	_putchar('\n');
-	row++;
 }
 }
