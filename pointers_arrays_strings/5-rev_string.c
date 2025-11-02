@@ -4,9 +4,9 @@
 /**
 * rev_string - reverses a string
 *
-* @s - charachter to reverse
+* @s : charachter to reverse
 *
-* Return void
+* Return: void
 */
 void rev_string(char *s)
 
